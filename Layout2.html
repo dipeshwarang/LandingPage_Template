@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <style>
+        .container1{}
+        .container{ display: flex; background-color: rgb(245, 31, 67); height: 450px; }
+        img{height: 200px; width: 300px; }
+        .div{width: 300px; padding: 50px; margin-left: 80px;}
+        b{font-size: 30px; color: white;}
+        p{font-size: 20px; color: white;}
+        .div2{background-color:rgb(245, 31, 67) ; width: 300px;  padding: 50px;margin-left: 80px;}
+        .main{display: flex; height: 450px; margin-top: 50px; }
+        .div1{width: 300px;  padding: 50px;margin-left: 80px;}
+        .b{color: rgb(245, 31, 67) ;}
+        .p{color: black;}
+        .nav{display: block; padding: 20px; text-decoration: none; color: black; font-size: 20px;}
+        .head{color: black; font-size: 100px; text-align: start; }
+        .para{color: black; }
+        .h5{font-size: 20px; }
+        .h6{font-size: 20px; margin-top: -25px;margin-left: 0px;}
+        .nav1{  text-decoration: none; color: black; font-size: 20px;margin-left: 0px; }
+        .box{font-size: 25px; width: 450px; margin-bottom: 15px; background-color: #eee; box-shadow: 0px 0px 3px 1px;}
+        .box1{background-color: rgb(52, 49, 49); color: white;}
+        
+    </style>
+</head>
+<body>
+    <h1>Website Landing Page Layout</h1>
+    <div class="container1">
+        <div class="container">
+            <div class="div"> <img src="Images/c1.jpg" alt=""><br><b>Hazelnut Cake</b><p>It is a moist cake, with the nutty flavour of hazelnuts enhanced by a spoonful of unsweetened cocoa powder.</p><br></div>
+            <div class="div"><img src="Images/c2.jpg" alt=""><br><b>3 Tier Cake</b><p>A 3-tier cake consists of three stacked layers, often used for weddings, birthdays, or special events. Each tier can have different sizes and flavors, typically serving 60-74 people.</p><br></div>
+            <div class="div"><img src="Images/c3.jpg" alt=""><br><b>Coconut Cake</b><p>Coconut cake is a moist, fluffy dessert made with coconut milk or shredded coconut, offering a rich tropical flavor. It's often layered with coconut frosting and topped with toasted coconut flakes.</p><br></div>
+        </div>
+           
+        <div class="main">
+            <div class="div1 "><img src="Images/c4.jpg" alt=""><br><b class="b">Apple Crumb</b> <p class="p">Apple crumb cake is a moist, spiced cake layered with tender apple slices and topped with a buttery cinnamon crumb topping.</p></div>
+            <div class="div2"><img src="Images/c5.jpg" alt=""><br><b>Oreos Cake</b><p>Oreo cake is a rich, chocolatey dessert made with crushed Oreo cookies layered into the batter and frosting. It's creamy, crunchy, and perfect for Oreo lovers of all ages.</p></div>
+            <div class="div1 "><img src="Images/c6.jpg" alt=""><br><b class="b">Blackberry Cake</b><p class="p">Blackberry cake is a soft, fruity dessert made with fresh or pureed blackberries for a sweet-tart flavor. Often paired with lemon or vanilla frosting, it's perfect for summer occasions.</p></div>
+        </div>
+
+        <div style="display: flex; margin-top: 100px;   ">
+
+        <div style="background-color: rgb(255, 255, 157);  width: 1505px; height: 650px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+        <b style="color: black; margin-left: 150px; display: inline-block; margin-top: 30px; ">Contact</b>
+        <div style="background-color: rgb(252, 254, 255);display: flex; width: 1200px; height: 500px; margin-left: 150px; margin-top: 10px; ">
+        <div style=" margin-left: 30px;  margin-top: 50px; " >
+            <a class="nav" href="#">Home</a>
+            <a class="nav" href="#">Work</a>
+            <a class="nav" href="#">Blog</a>
+            <a class="nav" href="#">Contact</a><br><br><br>
+            <div style="border: solid; display: inline; font-size: 80px; background-color: black; color: rgb(255, 255, 255);  margin-left: 10px; ">Im</div>
+        </div>
+
+        <div style="float: left;  margin-left: 80px; margin-bottom: 20px; margin-top: 20px;  " >
+            <b class="head">Contact</b>
+            <p class="para">Interested in working together? Fill out the Project inquiry form</p>
+            <h6 class="h5"> Md Imran Mondal</h6>
+            <h6 class="h6">27/3 Central Road, Dhanmondi Dhaka1205</h6>
+            <h6 class="h6">imranmondal@gmail.com</h6>
+            <h6 class="h6">+91 9563214545</h6>
+            <a class="nav1" href="#">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+            <a class="nav1" href="#">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+            <a class="nav1" href="#">Linkedin </a>
+        </div>
+
+        <div style="margin-left: 100px; margin-top: 50px; display: inline-block; margin-right: 20px;">
+            <form >
+                <input class="box" type="text"  placeholder="Name" required="true"><br>
+                <input class="box"  type="email" placeholder="Email" required="true"><br>
+                <input class="box"  type="text" placeholder="Subject" required="true"><br>
+                <textarea class="box" rows="5" cols="30" placeholder="Message" ></textarea><br>
+                <input class="box box1"  type="submit" value="Send" style="width: 457px;">
+            </form>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
